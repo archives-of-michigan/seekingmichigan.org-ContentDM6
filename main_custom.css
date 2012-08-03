@@ -983,7 +983,7 @@ a.suggested_word_selected {
 /* -----------------------  Breadcrumb Styles  ------------------------------ */
 
 #breadcrumb_top {
-	padding: 14px 0 24px 0;
+	padding: 20px 0 24px 0;
 	vertical-align: middle;
 	overflow: hidden;
 	min-width: 811px;
