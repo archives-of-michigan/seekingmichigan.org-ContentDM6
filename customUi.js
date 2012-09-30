@@ -1,12 +1,18 @@
 $(document).ready(function(){
-	$('body').wrapInner('<div id="archivesWrapMain" />');
-	$('#archivesWrapMain').prepend('<div id="main_wrapper" />');
+	
+	/*$('body').wrapInner('<div id="archivesWrapMain" />');
+	$('#archivesWrapMain').prepend('<div id="main_wrapper" />');*/
+	$('#top_content').hide();
+	$('#search').hide();
+	$('#cdmFooterWrapper').hide();
+	$('#content_footer').hide();
+	$('body').prepend('<div id="main_wrapper" />');
+	$('#main_wrapper').hide();
 	$('#main_wrapper').prepend('<div id="header_wrapper" />');
 	$('#header_wrapper').prepend('<div id="header_bar_wrapper" />');
 	$('#header_bar_wrapper').prepend('<div id="header_bar" />');
 	$('#header_bar').prepend('<div id="header_bar_inner" />');
-	$('#breadcrumb_top_content').html('');
-	
+	$('#breadcrumb_top_content').html('');	
 	
 	var navbar = '<div id="logo"><a href="http://seekingmichigan.org"><img alt="Seeking Michigan" src="http://cdm16317.contentdm.oclc.org/ui/custom/default/collection/default/resources/custompages/holderforcssimages/logo.png"></a></div><div id="navigation" class="rightside"><ul id="menu-main-navigation" class="sf-menu"><li id="menu-item-13172" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13172"><a href="http://seekingmichigan.org"><span class="menu-btn">Home</span></a></li><li id="menu-item-13220" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13220"><a href="http://seekingmichigan.org/about/" title="Seek"><span class="menu-btn">Seek</span></a></li><li id="menu-item-13175" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-13175"><a href="http://seekingmichigan.org/discover/"><span class="menu-btn">Discover</span></a></li><li id="menu-item-13194" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-13194"><a href="http://seekingmichigan.org/category/look/"><span class="menu-btn">Look</span></a></li><li id="menu-item-13405" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13405"><a href="http://seekingmichigan.org/teach/"><span class="menu-btn">Teach</span></a></li><li id="menu-item-13319" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13319"><a href="http://seekingmichigan.myshopify.com/"><span class="menu-btn">Buy</span></a></li></ul><br class="clear"></div><br class="clear">';
 	//$('#header_wrapper').append('<div id="header" />');
@@ -27,6 +33,7 @@ $(document).ready(function(){
 	$('#search_content_text').parent().css('margin-top', '5px');
 	$('.search_content_container_advanced').removeClass('float_left');
 	$('#search_content_text').html('Search Digital Archive:');
+	//$('#adv_search').prepend('<span class="clear"></span>');
 	
 	//on item page
 	//$('#results_box').appendTo('#image_title');
@@ -36,10 +43,19 @@ $(document).ready(function(){
 	$('#search_content_adv_link').replaceWith('<div id="search_content_adv_link" class="action_link_10" tabindex="6">Advanced Search</div>');
 	$('#search_results_dd_link').replaceWith('<div id="search_results_dd_link" class="search_content_button_link" tabindex="2">within results<span id="search_results_button_arrow" class="icon_10 icon_nav_top_left ui-icon-triangle-1-s"></span></div>');
 	$('#adv_search_by_date_link').replaceWith('<div id="adv_search_by_date_link" class="action_link_10">Search by date</div>');
-		
+	
 	//we've done our adjustments, now show the page content
-	$('#archivesWrapMain').css("display","block");
+	//$('#archivesWrapMain').css("display","block");
+	//$('#archivesWrapMain').show();
+	$('#main_wrapper').show();
+	$('#search').show();
+	$('#top_content').show();
+	$('#cdmFooterWrapper').show();
+	$('#content_footer').show();
+	
  });
+
+
 
 
 
