@@ -29,10 +29,11 @@ $(document).ready(function(){
 	$('#search').wrap('<div class="rightside" id="searchyContainer" />');
 	$('#simple_search_button').attr('value','go');
 	$('.search_content_container').css('margin-top','0');	
-	$('.search_content_container_advanced').appendTo('#searchyContainer');
+	$('.search_content_container_advanced').insertBefore('#searchyContainer');
 	$('#search_content_text').parent().css('margin-top', '5px');
 	$('.search_content_container_advanced').removeClass('float_left');
 	$('#search_content_text').html('Search Digital Archive:');
+	$('#search_content_close_icon').remove();
 	//$('#adv_search').prepend('<span class="clear"></span>');
 	
 	//on item page
@@ -40,7 +41,7 @@ $(document).ready(function(){
 	$('#results_box').appendTo('#breadcrumb_top');
 	
 	// OCLC is using <a> when it's not really a link--the onClick is causing open/close.  replace <a> with <div>.
-	$('#search_content_adv_link').replaceWith('<div id="search_content_adv_link" class="action_link_10" tabindex="6">Advanced Search</div>');
+	$('#search_content_adv_link').replaceWith('<div id="search_content_adv_link" tabindex="6">Advanced Search</div>');
 	$('#search_results_dd_link').replaceWith('<div id="search_results_dd_link" class="search_content_button_link" tabindex="2">within results<span id="search_results_button_arrow" class="icon_10 icon_nav_top_left ui-icon-triangle-1-s"></span></div>');
 	$('#adv_search_by_date_link').replaceWith('<div id="adv_search_by_date_link" class="action_link_10">Search by date</div>');
 	

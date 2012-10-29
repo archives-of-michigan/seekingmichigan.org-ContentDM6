@@ -705,7 +705,7 @@ html body span.clear {
 	vertical-align: middle;
 }
 
-.search_content_container_advanced { margin-top: 12px; float:right;}
+.search_content_container_advanced { /*margin-top: 12px;*/ float:right;}
 
 .search_content_modal_cover {
 	background-color: white;
@@ -725,7 +725,7 @@ html body span.clear {
 #search_content_box {
 	font-family: "lucida grande", Verdana, Arial, Helvetica, sans-serif;
 	color: #000;
-	margin-top: 5px;
+	margin-top: 1px;
 }
 
 .search_content_box_noresults {
@@ -801,6 +801,28 @@ html body span.clear {
 	margin: 0;
 }
 
+#search_content_adv_link {
+	background: none repeat scroll 0 0 #A3B92F;
+	border-radius: 20px;
+	color: #FFFFFF;
+	padding: 0;
+	position: relative;
+	text-indent: 0;
+	text-transform: uppercase;
+	text-align: center;
+	width: 175px;
+	height: 24px;
+	font-family: "lucida grande", arial;
+	font-size: 13px;
+	line-height: 24px;
+	font-weight: normal;
+	border: none;
+	margin: 0;
+	margin-top: -7px;
+	margin-left: 5px;
+	outline:0;
+}
+
 
 
 /*.search_content_button {
@@ -835,10 +857,7 @@ html body span.clear {
 	color: #D8E4EE;
 }*/
 
-#search_content_adv_link {
-	letter-spacing: -0.5px;
-	margin: 0;
-}
+
 
 #adv_search {
 	font-family: "lucida grande", arial;
