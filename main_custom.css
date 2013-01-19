@@ -996,6 +996,8 @@ a.suggested_word_selected {
 	min-width: 960px;
 	background-color: #fff;
 	padding: 0 15px 0 15px;
+	border-radius: 0 0 4px 4px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -1045,7 +1047,7 @@ span.breadcrumb_text_1 {
 
 #link_bar_content {
 	height: 20px;
-	font-size: 10px;
+	font-size: 12px;
 	margin: 0 0 0 0;
 	white-space: nowrap;
 	overflow: visible;
@@ -1255,11 +1257,11 @@ table.button_table { cursor: pointer; }
 .pagination_button_text {
 	font-family: "lucida grande", arial;
 	font-weight: normal;
-	font-size: 9px;
+	font-size: 12px;
 	padding: 0 3px;
 }
 
-.pagination_prev_next_button_text { font-size: 9px; }
+.pagination_prev_next_button_text { font-size: 12px; }
 
 .pagination_button_icon {
 	height: 14px;
@@ -1345,30 +1347,26 @@ table.button_table { cursor: pointer; }
 
 /* ------------------------------- Menu Buttons -----------------------------------------------------*/
 
-.menu_button {
-	color: #2E6E9E;
-	background-image: url(/ui/cdm/default/collection/default/css/images/redmond-ui-bg_glass_85_dfeffc_1x400.png);
-	background-repeat: repeat-x;
-	background-attachment: scroll;
-	background-position: 50% 50%;
-	background-color: #DFEFFC;
-	border: 1px solid #C5DBEC;
-	-moz-border-radius: 4px;
+.menu_button {	
+    background: url("http://seekingmichigan.org/wp-content/themes/shiny-child/images/gradient-light.png") repeat-x scroll 50% 50% #EEEEEE;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px 4px 4px 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 18px;
+}
 }
 
 .menu_button_icon { background-image: url(/ui/cdm/default/collection/default/css/images/redmond-ui-icons_6da8d5_256x240.png); }
 
 .menu_button_hover {
-	background-image: url(/ui/cdm/default/collection/default/css/images/redmond-ui-bg_glass_75_d0e5f5_1x400.png);
-	background-repeat: repeat-x;
-	background-attachment: scroll;
-	background-position: 50% 50%;
-	background-color: #DFEFFC;
+	background-color: #EBEBEB;
 	border: 1px solid #79B7E7;
 	color: #1D5987;
 }
 
-.menu_button_icon_hover { background-image: url(/ui/cdm/default/collection/default/css/images/redmond-ui-icons_217bc0_256x240.png); }
+.menu_button_icon_hover { background-color: #ebebeb; }
 
 /* ------------------------------- Dialog Buttons -----------------------------------------------------*/
 
@@ -2533,9 +2531,9 @@ div { }
 
 #results_tn_col1 {
 	width: 220px;
-	background-color: #F9F9F9;
-	border: 1px solid #E9E9E9;
-	border-width: 1px 1px 0 0;
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.05);
+        border: 1px solid rgba(0, 0, 0, 0.05);
+        border-radius: 4px 4px 4px 4px;
 	padding: 15px 10px 0 10px;
 	margin: 2px 0 0 -28px;
 	float: left;
@@ -2546,9 +2544,11 @@ div { }
 	margin-left: 220px;
 	min-width: 645px;
 	overflow: hidden;
-	background-color: #F9F9F9;
-	border: 1px solid #E9E9E9;
-	border-width: 1px 1px 0 0;
+	background-color: #FFF;
+	border: none !important;
+	border-color: none !important;
+	border-radius: 0 0 4px 4px;
+	box-shadow:0 1px 1px rgba(0, 0, 0, 0.1);
 }
 
 #breadcrumb { }
