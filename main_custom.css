@@ -2674,7 +2674,7 @@ div.results_tn_icon_favs_link {
 /* -----------------------  Widget Styles  ------------ */
 
 /* -----------------------  Metadata Styles  ------------------------------ */
-#details_accordion { margin: 0 0 0 0; }
+#details_accordion { margin: 0 0 0 0; padding-bottom: 20px; }
 
 td.description_col1 {
 	width: 100px;
