@@ -10,7 +10,6 @@ img{
 #top_content{
 	width: 930px;
 	margin:auto;
-	padding-bottom: 20px;
 }
 
 /*get rid of CONTENTdm header*/
@@ -47,7 +46,7 @@ img{
 }
 
 #header_bar {
-	height: 64px;
+	height: 73px;
 	background-image: url("http://cdm16317.contentdm.oclc.org/ui/custom/default/collection/default/resources/custompages/holderforcssimages/header-bg2.png");
 	background-position: 50% 0;
 	background-repeat: repeat-x;

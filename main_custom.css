@@ -78,6 +78,8 @@
 
 html { 
 	background-color: #FCF8E9;
+	background-image: url("http://seekingmichigan.org/wp-content/themes/shiny-child/images/bg/bg30.png");
+	background-repeat: repeat;
 }
 
 body {
