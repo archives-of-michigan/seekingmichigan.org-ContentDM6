@@ -8,7 +8,7 @@ img{
 }
 
 #top_content{
-	width: 930px;
+	width: 960px;
 	margin:auto;
 }
 
@@ -88,10 +88,11 @@ img{
 #search {
     background: none repeat scroll 0 0 #FFFFFF;
     border: 1px solid #CCCCCC;
-    border-radius: 20px 20px 20px 20px;
-   height: 24px;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    height: 24px;
     padding: 3px;
-    /* width: 211px;*/
 }
 
 

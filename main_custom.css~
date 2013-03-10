@@ -2534,6 +2534,7 @@ div { }
 #results_tn_col1 {
 	width: 220px;
 	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.05);
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#0C000000', endColorstr='#0C000000');
         border: 1px solid rgba(0, 0, 0, 0.05);
         border-radius: 4px 4px 4px 4px;
 	padding: 15px 10px 0 10px;
@@ -2674,7 +2675,7 @@ div.results_tn_icon_favs_link {
 /* -----------------------  Widget Styles  ------------ */
 
 /* -----------------------  Metadata Styles  ------------------------------ */
-#details_accordion { margin: 0 0 0 0; }
+#details_accordion { margin: 0 0 0 0; padding-bottom: 20px; }
 
 td.description_col1 {
 	width: 100px;

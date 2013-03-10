@@ -29,7 +29,7 @@ $(document).ready(function(){
 	$('#search').wrap('<div class="rightside" id="searchyContainer" />');
 	$('#simple_search_button').attr('value','go');
 	$('.search_content_container').css('margin-top','0');	
-	$('.search_content_container_advanced').prepend('<div id="searchyContainer" />');
+	$('.search_content_container_advanced').appendTo('#searchyContainer');
 	$('#search_content_text').parent().css('margin-top', '5px');
 	$('.search_content_container_advanced').removeClass('float_left');
 	$('#search_content_text').html('Search Digital Archive:');

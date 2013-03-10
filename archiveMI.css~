@@ -46,7 +46,7 @@ img{
 }
 
 #header_bar {
-	height: 73px;
+	height: 64px;
 	background-image: url("http://cdm16317.contentdm.oclc.org/ui/custom/default/collection/default/resources/custompages/holderforcssimages/header-bg2.png");
 	background-position: 50% 0;
 	background-repeat: repeat-x;
